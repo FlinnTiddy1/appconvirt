@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+MAINTAINER Flinn Tiddy
+
 RUN apt-get update 
 RUN apt-get -y upgrade
 RUN apt-get -y install python3 python3-setuptools python3-pip gunicorn3
